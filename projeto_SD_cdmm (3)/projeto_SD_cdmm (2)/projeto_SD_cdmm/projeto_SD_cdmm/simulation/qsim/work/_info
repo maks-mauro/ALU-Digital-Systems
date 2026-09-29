@@ -1,0 +1,410 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Users/dwcf/Documents/projeto_SD_cdmm/simulation/qsim
+vComplementa2
+Z1 !s110 1790399137
+!i10b 1
+!s100 WW8M=L9a5MQ8>^PfJcGO23
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7fGH5_EQafh<;M`<G4jNJ3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dD:/Users/mjb/Downloads/ALU-Digital-Systems/projeto_SD_cdmm/projeto_SD_cdmm/simulation/qsim
+Z5 w1790399136
+Z6 8projeto_SD_cdmm.vo
+Z7 Fprojeto_SD_cdmm.vo
+!i122 46
+Z8 L0 32 263
+Z9 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z10 !s108 1790399137.000000
+Z11 !s107 projeto_SD_cdmm.vo|
+Z12 !s90 -work|work|projeto_SD_cdmm.vo|
+!i113 1
+Z13 o-work work
+Z14 tCvgOpt 0
+n@complementa2
+vComplementa2_vlg_vec_tst
+R1
+!i10b 1
+!s100 Qo2:hofHo5l>bj;NGGa[h2
+R2
+IVlcZl@N8^l]8LobC1zJAk3
+R3
+R4
+R5
+8simu_complementa2.vwf.vt
+Fsimu_complementa2.vwf.vt
+!i122 47
+L0 30 65
+R9
+r1
+!s85 0
+31
+R10
+!s107 simu_complementa2.vwf.vt|
+!s90 -work|work|simu_complementa2.vwf.vt|
+!i113 1
+R13
+R14
+n@complementa2_vlg_vec_tst
+vComplementa_2
+!s110 1790398434
+!i10b 1
+!s100 H_aK5R5_5bBRool[?^4B[3
+R2
+I]b0MceYLDQ1kmo1m1dThK3
+R3
+R4
+w1790398434
+R6
+R7
+!i122 44
+R8
+R9
+r1
+!s85 0
+31
+Z15 !s108 1790398434.000000
+R11
+R12
+!i113 1
+R13
+R14
+n@complementa_2
+vComplementa_2_vlg_vec_tst
+!s110 1790398435
+!i10b 1
+!s100 5EnA]5K;6zUJzaI<l5?5l1
+R2
+I@ljIH6Ub:Eilb[039nT142
+R3
+R4
+w1790398433
+8Simu_Complementa2.vwf.vt
+FSimu_Complementa2.vwf.vt
+!i122 45
+L0 30 66
+R9
+r1
+!s85 0
+31
+R15
+!s107 Simu_Complementa2.vwf.vt|
+!s90 -work|work|Simu_Complementa2.vwf.vt|
+!i113 1
+R13
+R14
+n@complementa_2_vlg_vec_tst
+vhard_block
+Z16 !s110 1790656293
+!i10b 1
+!s100 8fk:^8P=_FX1W@V]DbBRz1
+R2
+IVFAO2`8eN]4<TC`6I?BU;3
+R3
+Z17 dD:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simulation/qsim
+Z18 w1790656293
+R6
+R7
+!i122 56
+L0 928 34
+R9
+r1
+!s85 0
+31
+Z19 !s108 1790656293.000000
+R11
+R12
+!i113 1
+R13
+R14
+vmodulo_igualdade
+Z20 !s110 1790256744
+!i10b 1
+!s100 EL`JoVId3YBi:@[:?zN4R0
+R2
+IW0d1Z1k^WzE_?jaRfA:l[2
+R3
+R0
+w1790256743
+R6
+R7
+!i122 30
+L0 32 221
+R9
+r1
+!s85 0
+31
+Z21 !s108 1790256744.000000
+R11
+R12
+!i113 1
+R13
+R14
+vmodulo_igualdade_vlg_vec_tst
+R20
+!i10b 1
+!s100 ;FPSY>gMD7N6BC5;>kB9L2
+R2
+IaMLSPo]KPMNiD?LCY3B[z1
+R3
+R0
+w1790256742
+8simu_igualdade.vwf.vt
+Fsimu_igualdade.vwf.vt
+!i122 31
+L0 30 120
+R9
+r1
+!s85 0
+31
+R21
+!s107 simu_igualdade.vwf.vt|
+!s90 -work|work|simu_igualdade.vwf.vt|
+!i113 1
+R13
+R14
+vmodulo_xor
+Z22 !s110 1790255782
+!i10b 1
+!s100 f6A3IPQC?kLC<WJdG@^V_0
+R2
+I]a?[fRbJRE[T3XdmGB;UT2
+R3
+R0
+w1790255781
+R6
+R7
+!i122 24
+Z23 L0 32 325
+R9
+r1
+!s85 0
+31
+Z24 !s108 1790255782.000000
+R11
+R12
+!i113 1
+R13
+R14
+vmodulo_xor_vlg_vec_tst
+R22
+!i10b 1
+!s100 k?UlJV8f`Q>B:TnP>jSAU1
+R2
+I974WN[kRMjH8]Vk7cQa:n0
+R3
+R0
+w1790255780
+8simu_XOR.vwf.vt
+Fsimu_XOR.vwf.vt
+!i122 25
+L0 30 128
+R9
+r1
+!s85 0
+31
+R24
+!s107 simu_XOR.vwf.vt|
+!s90 -work|work|simu_XOR.vwf.vt|
+!i113 1
+R13
+R14
+vmoduloDisplay
+R16
+!i10b 1
+!s100 G=PBk2PebUBT4=XzeXG>E2
+R2
+Iz565fW9z4Td=INa;SGW9A2
+R3
+R17
+R18
+R6
+R7
+!i122 56
+L0 32 895
+R9
+r1
+!s85 0
+31
+R19
+R11
+R12
+!i113 1
+R13
+R14
+nmodulo@display
+vmoduloDisplay_vlg_vec_tst
+!s110 1790656294
+!i10b 1
+!s100 cI08ieiAaNFbIPbR>JS>@0
+R2
+I=ZT7ggH[Fo7bh2Oc^B=0Q2
+R3
+R17
+w1790656292
+8simuDisplay.vwf.vt
+FsimuDisplay.vwf.vt
+!i122 57
+L0 30 110
+R9
+r1
+!s85 0
+31
+R19
+!s107 simuDisplay.vwf.vt|
+!s90 -work|work|simuDisplay.vwf.vt|
+!i113 1
+R13
+R14
+nmodulo@display_vlg_vec_tst
+vprojeto_SD_cdmm
+Z25 !s110 1790254468
+!i10b 1
+!s100 eg?:19CoP5<h[o`kTTbU>0
+R2
+Ie?mL9:2zmNIgd1GM<foL>3
+R3
+R0
+w1790254467
+R6
+R7
+!i122 8
+R23
+R9
+r1
+!s85 0
+31
+Z26 !s108 1790254468.000000
+R11
+R12
+!i113 1
+R13
+R14
+nprojeto_@s@d_cdmm
+vprojeto_SD_cdmm_vlg_vec_tst
+R25
+!i10b 1
+!s100 ZB6FTSX[JDa0B[LzlV56z0
+R2
+ICDENPWYo?mCd=kzX^2LFN3
+R3
+R0
+w1790254466
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 9
+L0 30 114
+R9
+r1
+!s85 0
+31
+R26
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R13
+R14
+nprojeto_@s@d_cdmm_vlg_vec_tst
+vsomador
+Z27 !s110 1790367082
+!i10b 1
+!s100 JE`_9W0UH58<azg^BlDeb3
+R2
+IkfP4b2f5UB]z7@JM5PY9O2
+R3
+R4
+w1790367081
+R6
+R7
+!i122 32
+L0 32 140
+R9
+r1
+!s85 0
+31
+Z28 !s108 1790367082.000000
+R11
+R12
+!i113 1
+R13
+R14
+vsomador_6_bits
+Z29 !s110 1790433360
+!i10b 1
+!s100 gT^G^N?Obm;j7DU@i=3gG3
+R2
+ID9>b]BT8bJIT4V@f7c0[T3
+R3
+Z30 dD:/Users/mjb/Downloads/ALU-Digital-Systems/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simulation/qsim
+w1790433359
+R6
+R7
+!i122 52
+L0 32 414
+R9
+r1
+!s85 0
+31
+!s108 1790433359.000000
+R11
+R12
+!i113 1
+R13
+R14
+vsomador_6_bits_vlg_vec_tst
+R29
+!i10b 1
+!s100 O;1_9Oh5^gm3E8=ma5[=I0
+R2
+IH@?dUH5bgEdYDF;2<1[WH1
+R3
+R30
+w1790433358
+8simu_somador6bit.vwf.vt
+Fsimu_somador6bit.vwf.vt
+!i122 53
+L0 30 115
+R9
+r1
+!s85 0
+31
+!s108 1790433360.000000
+!s107 simu_somador6bit.vwf.vt|
+!s90 -work|work|simu_somador6bit.vwf.vt|
+!i113 1
+R13
+R14
+vsomador_vlg_vec_tst
+R27
+!i10b 1
+!s100 iffk`l9QjAD?=gKc855^X2
+R2
+IaMmc3JH>]3TO`EfmFH<3j3
+R3
+R4
+w1790367080
+8simu_somador.vwf.vt
+Fsimu_somador.vwf.vt
+!i122 33
+L0 30 52
+R9
+r1
+!s85 0
+31
+R28
+!s107 simu_somador.vwf.vt|
+!s90 -work|work|simu_somador.vwf.vt|
+!i113 1
+R13
+R14

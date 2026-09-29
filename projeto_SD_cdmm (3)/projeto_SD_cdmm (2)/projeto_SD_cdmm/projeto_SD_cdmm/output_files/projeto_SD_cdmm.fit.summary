@@ -1,0 +1,10 @@
+I/O Assignment Analysis Status : Successful - Tue Sep 29 07:12:17 2026
+Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Lite Edition
+Revision Name : projeto_SD_cdmm
+Top-level Entity Name : moduloDisplay
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total pins : 27 / 529 ( 5 % )
+Total virtual pins : 0
+Total PLLs : 0 / 4 ( 0 % )
