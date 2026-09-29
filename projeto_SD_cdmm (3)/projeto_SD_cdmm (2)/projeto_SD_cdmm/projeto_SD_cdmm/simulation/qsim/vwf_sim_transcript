@@ -7,7 +7,7 @@ Note: if both Questa Intel FPGA Edition and ModelSim executables are available, 
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off projeto_SD_cdmm -c projeto_SD_cdmm --vector_source="D:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simuDisplay.vwf" --testbench_file="D:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simulation/qsim/simuDisplay.vwf.vt"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off projeto_SD_cdmm -c projeto_SD_cdmm --vector_source="D:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simuBCDunidade.vwf" --testbench_file="D:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simulation/qsim/simuBCDunidade.vwf.vt"
 
 TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 
@@ -28,15 +28,9 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Tue Sep 29 01:31:31 2026
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off projeto_SD_cdmm -c projeto_SD_cdmm --vector_source="D:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simuDisplay.vwf" --testbench_file="D:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simulation/qsim/simuDisplay.vwf.vt"
+    Info: Processing started: Tue Sep 29 07:24:23 2026
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off projeto_SD_cdmm -c projeto_SD_cdmm --vector_source="D:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simuBCDunidade.vwf" --testbench_file="D:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simulation/qsim/simuBCDunidade.vwf.vt"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-
-Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 22 warnings
-    Info: Peak virtual memory: 4660 megabytes
-    Info: Processing ended: Tue Sep 29 01:31:32 2026
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
 
 Completed successfully. 
 
@@ -65,14 +59,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Tue Sep 29 01:31:32 2026
+    Info: Processing started: Tue Sep 29 07:24:24 2026
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="D:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simulation/qsim/" projeto_SD_cdmm -c projeto_SD_cdmm
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file projeto_SD_cdmm.vo in folder "D:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4677 megabytes
-    Info: Processing ended: Tue Sep 29 01:31:33 2026
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Tue Sep 29 07:24:24 2026
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 
 Completed successfully. 
@@ -99,42 +93,41 @@ Reading pref.tcl
 
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 
-# Start time: 01:31:33 on Sep 29,2026
-
+# Start time: 07:24:25 on Sep 29,2026
 # vlog -work work projeto_SD_cdmm.vo 
 
-# -- Compiling module moduloDisplay
+# -- Compiling module BCDunidades
 
 # -- Compiling module hard_block
 
 # 
 
 # Top level modules:
-# 	moduloDisplay
+# 	BCDunidades
 
-# End time: 01:31:33 on Sep 29,2026, Elapsed time: 0:00:00
+# End time: 07:24:25 on Sep 29,2026, Elapsed time: 0:00:00
 
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 
-# Start time: 01:31:33 on Sep 29,2026
-# vlog -work work simuDisplay.vwf.vt 
+# Start time: 07:24:25 on Sep 29,2026
+# vlog -work work simuBCDunidade.vwf.vt 
 
-# -- Compiling module moduloDisplay_vlg_vec_tst
+# -- Compiling module BCDunidades_vlg_vec_tst
 
 # 
 # Top level modules:
-# 	moduloDisplay_vlg_vec_tst
+# 	BCDunidades_vlg_vec_tst
 
-# End time: 01:31:34 on Sep 29,2026, Elapsed time: 0:00:01
+# End time: 07:24:25 on Sep 29,2026, Elapsed time: 0:00:00
 
 # Errors: 0, Warnings: 0
 
-# vsim -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.moduloDisplay_vlg_vec_tst 
-# Start time: 01:31:34 on Sep 29,2026
-# Loading work.moduloDisplay_vlg_vec_tst
-# Loading work.moduloDisplay
+# vsim -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.BCDunidades_vlg_vec_tst 
+# Start time: 07:24:26 on Sep 29,2026
+# Loading work.BCDunidades_vlg_vec_tst
+# Loading work.BCDunidades
 # Loading work.hard_block
 # Loading cycloneive_ver.cycloneive_io_obuf
 # Loading cycloneive_ver.cycloneive_io_ibuf
@@ -142,23 +135,23 @@ Reading pref.tcl
 
 # after#26
 
-# ** Note: $finish    : simuDisplay.vwf.vt(85)
-#    Time: 1 us  Iteration: 0  Instance: /moduloDisplay_vlg_vec_tst
+# ** Note: $finish    : simuBCDunidade.vwf.vt(57)
+#    Time: 1 us  Iteration: 0  Instance: /BCDunidades_vlg_vec_tst
 
-# End time: 01:31:34 on Sep 29,2026, Elapsed time: 0:00:00
+# End time: 07:24:26 on Sep 29,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading D:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simuDisplay.vwf...
+Reading D:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simuBCDunidade.vwf...
 
 Reading D:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simulation/qsim/projeto_SD_cdmm.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to D:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simulation/qsim/projeto_SD_cdmm_20260929013134.sim.vwf
+Writing the resulting VWF to D:/Users/mjb/ALU-Digital-Systems/projeto_SD_cdmm (3)/projeto_SD_cdmm (2)/projeto_SD_cdmm/projeto_SD_cdmm/simulation/qsim/projeto_SD_cdmm_20260929072426.sim.vwf
 
 Finished VCD to VWF conversion.
 
