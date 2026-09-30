@@ -48,7 +48,7 @@ This repository contains the full hardware design and implementation for **ALU-D
 
 ---
 
-## 🚀 Getting Started
+### 🚀 Getting Started
 
 Follow these steps to compile the project and flash it onto your FPGA board.
 
